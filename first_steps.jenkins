@@ -13,12 +13,12 @@ timestamps()
 stages {
 stage("First step") {
 steps {
-sh 'ping yandex.ru/'
+echo 'первый шаг'
 }
 }
 stage("second step") {
 steps {
-sh 'ping https://mtkp.bmstu.ru/'
+echo 'второй шаг'
 }
 }
 }
