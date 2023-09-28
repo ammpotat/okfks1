@@ -13,12 +13,12 @@ timestamps()
 stages {
 stage("First step") {
 steps {
-echo 'первый шаг'
+echo 'first stepppppp'
 }
 }
 stage("second step") {
 steps {
-echo 'второй шаг'
+echo 'second'
 }
 }
 }
