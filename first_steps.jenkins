@@ -2,7 +2,7 @@
 // Check URL properties
 properties([disableConcurrentBuilds()])
 
-pipeline (
+pipeline {
 agent {
 label 'master'
 }
